@@ -1,4 +1,4 @@
-JSON =$(curl -H "Content-Type: application/json" \
+JSON=$(curl -H "Content-Type: application/json" \
 -d '{"username":"09b3ef04-2858-4c85-a558-7c084a893a45", "password":"goM1TjxXztIrQ2H2Dsek15vjnA8="}' \
 https://us-east1.cloud.twistlock.com/us-2-158257010/api/v1/authenticate)
 
